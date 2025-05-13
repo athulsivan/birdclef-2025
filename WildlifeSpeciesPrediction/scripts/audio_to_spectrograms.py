@@ -7,7 +7,7 @@ import numpy as np
 from tqdm import tqdm
 
 # INPUT: Base audio folder
-AUDIO_DIR = Path(r"C:\Users\athul\Desktop\birdclef-2023\train_audio\abethr1")
+AUDIO_DIR = Path(r"C:\Users\athul\Desktop\birdclef-2023\train_audio")
 # OUTPUT: Spectrogram folder
 SPEC_DIR = Path("data/processed/spectrograms")
 SPEC_DIR.mkdir(parents=True, exist_ok=True)
